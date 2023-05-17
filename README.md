@@ -79,10 +79,15 @@
 > > #### Local
 
 ![GitHub Logo](images/Gitea-Logo.wine.svg) 
+<img src="images/Gitea-Logo.wine.svg" width="300" />
+
 <br /><br />
 
 > > #### URL
-![GitHub Logo](https://www.logo.wine/a/logo/Gitea/Gitea-Logo.wine.svg)
+![GitHub Logo](https://www.logo.wine/a/logo/Gitea/Gitea-Logo.wine.svg)  
+
+<img src="https://www.logo.wine/a/logo/Gitea/Gitea-Logo.wine.svg" width="300" />
+
 
 <br /><br />
 
