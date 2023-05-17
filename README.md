@@ -78,11 +78,11 @@
 > ### Image Links
 > > #### Local
 
-![GitHub Logo](images/github-logo-github-octocat.png) 
+![GitHub Logo](images/Gitea-Logo.wine.svg) 
 <br /><br />
 
 > > #### URL
-![GitHub Logo](https://image.pngaaa.com/550/2809550-middle.png)
+![GitHub Logo](https://www.logo.wine/a/logo/Gitea/Gitea-Logo.wine.svg)
 
 <br /><br />
 
