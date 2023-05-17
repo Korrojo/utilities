@@ -1,27 +1,31 @@
 # Comprehensive Markdown Reference Template
 
 ## Table of Contents
-1. [Headers](#headers)
-2. [Emphasis](#emphasis)
+01. [Headers](#headers)
+02. [Emphasis](#emphasis)
     - [Bold Text](#bold-text)
     - [Italic Text](#italic-text)
     - [Bold and Italic](#bold-and-italic)
     - [Strikethrough](#strikethrough)
-3. [Lists](#lists)
+03. [Lists](#lists)
     - [Unordered Lists](#unordered-lists)
     - [Ordered Lists](#ordered-lists)
     - [Task Lists](#task-lists)
-4. [Links](#links)
+04. [Links](#links)
     - [URL Links](#url-links)
-    - [Image Links](#image-links)
-5. [Blockquotes](#blockquotes)
-6. [Code](#code)
+    - [Image Links](#-mage-links)
+        - [Local](#local)
+        - [URL](#url)
+
+
+05. [Blockquotes](#blockquotes)
+06. [Code](#code)
     - [Code Blocks](#code-blocks)
     - [Inline Code](#inline-code)
     - [Syntax Highlighting](#syntax-highlighting)
-7. [Table](#table)
-8. [Horizontal Rule](#horizontal-rule)
-9. [Inline HTML](#inline-html)
+07. [Table](#table)
+08. [Horizontal Rule](#horizontal-rule)
+09. [Inline HTML](#inline-html)
 10. [Escaping Characters](#escaping-characters)
 11. [Colored Text (HTML)](#colored-text-html)
 
@@ -49,30 +53,38 @@
 
 ## Lists
 
-### Unordered Lists
+> ### Unordered Lists
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 
-### Ordered Lists
+> ### Ordered Lists
 1. Item 1
 2. Item 2
    1. Sub Item 2.1
    2. Sub Item 2.2
 3. Item 3
 
-### Task Lists
+> ### Task Lists
 - [x] This is a complete item
 - [ ] This is an incomplete item<br /><br />
 
 ## Links
 
-### URL Links
+> ### URL Links
 [Google](https://www.google.com)
 
-### Image Links
-![GitHub Logo](/images/logo.png) <br /><br />
+> ### Image Links
+> > #### Local
+
+![GitHub Logo](images/github-logo-github-octocat.png) 
+<br /><br />
+
+> > #### URL
+![GitHub Logo](https://image.pngaaa.com/550/2809550-middle.png)
+
+<br /><br />
 
 ## Blockquotes
 As Kanye West said:
@@ -83,7 +95,7 @@ As Kanye West said:
 
 ## Code
 
-### Code Blocks
+> ### Code Blocks
 You can use 3 backticks to create a code block:
 
 ```java
@@ -93,10 +105,14 @@ function fancyAlert(arg) {
   }
 }
 ```
-### Inline Code
+<br />
+
+> ### Inline Code
 To denote a word or phrase as inline code, enclose it in backticks (\`). For instance, the word `code` in this sentence is an example of inline code.
 
-### Syntax Highlighting
+<br />
+
+> ### Syntax Highlighting
 You can add an optional language identifier to enable syntax highlighting in your fenced code block. For example, to syntax highlight JavaScript code:
 
 ```javascript
@@ -109,7 +125,7 @@ function fancyAlert(arg) {
 <br />  
 
 ## Table
-You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`. You can also specify alignment for each column using colons `:`.
+    You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`. You can also specify alignment for each column using colons `:`.
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
